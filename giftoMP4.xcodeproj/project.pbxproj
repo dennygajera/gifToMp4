@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F45689881E1CB8C70017EDE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F45689871E1CB8C70017EDE5 /* main.m */; };
+		F456898B1E1CB8C70017EDE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F456898A1E1CB8C70017EDE5 /* AppDelegate.m */; };
+		F456898E1E1CB8C70017EDE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F456898D1E1CB8C70017EDE5 /* ViewController.m */; };
+		F45689911E1CB8C70017EDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F456898F1E1CB8C70017EDE5 /* Main.storyboard */; };
+		F45689931E1CB8C70017EDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45689921E1CB8C70017EDE5 /* Assets.xcassets */; };
+		F45689961E1CB8C70017EDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45689941E1CB8C70017EDE5 /* LaunchScreen.storyboard */; };
+		F45689A11E1CB8C70017EDE5 /* giftoMP4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45689A01E1CB8C70017EDE5 /* giftoMP4Tests.m */; };
+		F45689AC1E1CB8C70017EDE5 /* giftoMP4UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45689AB1E1CB8C70017EDE5 /* giftoMP4UITests.m */; };
+		F4568A171E1CB9970017EDE5 /* my.gif in Resources */ = {isa = PBXBuildFile; fileRef = F4568A161E1CB9970017EDE5 /* my.gif */; };
+		F4568A1A1E1CC46A0017EDE5 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F4568A191E1CC46A0017EDE5 /* UIImage+animatedGIF.m */; };
+		F4568A1F1E1CC6E20017EDE5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4568A1E1E1CC6E20017EDE5 /* AVFoundation.framework */; };
+		F4568A211E1CC6E80017EDE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4568A201E1CC6E80017EDE5 /* Foundation.framework */; };
+		F4568A231E1CC71D0017EDE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4568A221E1CC71D0017EDE5 /* UIKit.framework */; };
+		F4568A251E1CC7270017EDE5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4568A241E1CC7270017EDE5 /* QuartzCore.framework */; };
+		F4568A271E1CC7300017EDE5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4568A261E1CC7300017EDE5 /* CoreVideo.framework */; };
+		F4568A291E1CC7360017EDE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4568A281E1CC7360017EDE5 /* CoreGraphics.framework */; };
+		F4568A2B1E1CC7460017EDE5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4568A2A1E1CC7460017EDE5 /* CoreMedia.framework */; };
+		F4568A2D1E1CD3570017EDE5 /* your.gif in Resources */ = {isa = PBXBuildFile; fileRef = F4568A2C1E1CD3570017EDE5 /* your.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F456899D1E1CB8C70017EDE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F456897B1E1CB8C70017EDE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45689821E1CB8C70017EDE5;
+			remoteInfo = giftoMP4;
+		};
+		F45689A81E1CB8C70017EDE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F456897B1E1CB8C70017EDE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45689821E1CB8C70017EDE5;
+			remoteInfo = giftoMP4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F45689831E1CB8C70017EDE5 /* giftoMP4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giftoMP4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45689871E1CB8C70017EDE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F45689891E1CB8C70017EDE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F456898A1E1CB8C70017EDE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F456898C1E1CB8C70017EDE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F456898D1E1CB8C70017EDE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F45689901E1CB8C70017EDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45689921E1CB8C70017EDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45689951E1CB8C70017EDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F45689971E1CB8C70017EDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F456899C1E1CB8C70017EDE5 /* giftoMP4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giftoMP4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45689A01E1CB8C70017EDE5 /* giftoMP4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = giftoMP4Tests.m; sourceTree = "<group>"; };
+		F45689A21E1CB8C70017EDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45689A71E1CB8C70017EDE5 /* giftoMP4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giftoMP4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45689AB1E1CB8C70017EDE5 /* giftoMP4UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = giftoMP4UITests.m; sourceTree = "<group>"; };
+		F45689AD1E1CB8C70017EDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4568A161E1CB9970017EDE5 /* my.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my.gif; sourceTree = "<group>"; };
+		F4568A181E1CC46A0017EDE5 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		F4568A191E1CC46A0017EDE5 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		F4568A1E1E1CC6E20017EDE5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F4568A201E1CC6E80017EDE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4568A221E1CC71D0017EDE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4568A241E1CC7270017EDE5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F4568A261E1CC7300017EDE5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F4568A281E1CC7360017EDE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4568A2A1E1CC7460017EDE5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F4568A2C1E1CD3570017EDE5 /* your.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = your.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45689801E1CB8C70017EDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4568A2B1E1CC7460017EDE5 /* CoreMedia.framework in Frameworks */,
+				F4568A291E1CC7360017EDE5 /* CoreGraphics.framework in Frameworks */,
+				F4568A271E1CC7300017EDE5 /* CoreVideo.framework in Frameworks */,
+				F4568A251E1CC7270017EDE5 /* QuartzCore.framework in Frameworks */,
+				F4568A231E1CC71D0017EDE5 /* UIKit.framework in Frameworks */,
+				F4568A211E1CC6E80017EDE5 /* Foundation.framework in Frameworks */,
+				F4568A1F1E1CC6E20017EDE5 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45689991E1CB8C70017EDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45689A41E1CB8C70017EDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F456897A1E1CB8C70017EDE5 = {
+			isa = PBXGroup;
+			children = (
+				F45689851E1CB8C70017EDE5 /* giftoMP4 */,
+				F456899F1E1CB8C70017EDE5 /* giftoMP4Tests */,
+				F45689AA1E1CB8C70017EDE5 /* giftoMP4UITests */,
+				F45689841E1CB8C70017EDE5 /* Products */,
+				F4568A1D1E1CC6E20017EDE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F45689841E1CB8C70017EDE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45689831E1CB8C70017EDE5 /* giftoMP4.app */,
+				F456899C1E1CB8C70017EDE5 /* giftoMP4Tests.xctest */,
+				F45689A71E1CB8C70017EDE5 /* giftoMP4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45689851E1CB8C70017EDE5 /* giftoMP4 */ = {
+			isa = PBXGroup;
+			children = (
+				F48B7D821E1E129A0073F8E7 /* animatedGIF */,
+				F48B7D811E1E128E0073F8E7 /* GifFile */,
+				F45689891E1CB8C70017EDE5 /* AppDelegate.h */,
+				F456898A1E1CB8C70017EDE5 /* AppDelegate.m */,
+				F456898C1E1CB8C70017EDE5 /* ViewController.h */,
+				F456898D1E1CB8C70017EDE5 /* ViewController.m */,
+				F456898F1E1CB8C70017EDE5 /* Main.storyboard */,
+				F45689921E1CB8C70017EDE5 /* Assets.xcassets */,
+				F45689941E1CB8C70017EDE5 /* LaunchScreen.storyboard */,
+				F45689971E1CB8C70017EDE5 /* Info.plist */,
+				F45689861E1CB8C70017EDE5 /* Supporting Files */,
+			);
+			path = giftoMP4;
+			sourceTree = "<group>";
+		};
+		F45689861E1CB8C70017EDE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F45689871E1CB8C70017EDE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F456899F1E1CB8C70017EDE5 /* giftoMP4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F45689A01E1CB8C70017EDE5 /* giftoMP4Tests.m */,
+				F45689A21E1CB8C70017EDE5 /* Info.plist */,
+			);
+			path = giftoMP4Tests;
+			sourceTree = "<group>";
+		};
+		F45689AA1E1CB8C70017EDE5 /* giftoMP4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F45689AB1E1CB8C70017EDE5 /* giftoMP4UITests.m */,
+				F45689AD1E1CB8C70017EDE5 /* Info.plist */,
+			);
+			path = giftoMP4UITests;
+			sourceTree = "<group>";
+		};
+		F4568A1D1E1CC6E20017EDE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4568A2A1E1CC7460017EDE5 /* CoreMedia.framework */,
+				F4568A281E1CC7360017EDE5 /* CoreGraphics.framework */,
+				F4568A261E1CC7300017EDE5 /* CoreVideo.framework */,
+				F4568A241E1CC7270017EDE5 /* QuartzCore.framework */,
+				F4568A221E1CC71D0017EDE5 /* UIKit.framework */,
+				F4568A201E1CC6E80017EDE5 /* Foundation.framework */,
+				F4568A1E1E1CC6E20017EDE5 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F48B7D811E1E128E0073F8E7 /* GifFile */ = {
+			isa = PBXGroup;
+			children = (
+				F4568A161E1CB9970017EDE5 /* my.gif */,
+				F4568A2C1E1CD3570017EDE5 /* your.gif */,
+			);
+			name = GifFile;
+			sourceTree = "<group>";
+		};
+		F48B7D821E1E129A0073F8E7 /* animatedGIF */ = {
+			isa = PBXGroup;
+			children = (
+				F4568A181E1CC46A0017EDE5 /* UIImage+animatedGIF.h */,
+				F4568A191E1CC46A0017EDE5 /* UIImage+animatedGIF.m */,
+			);
+			name = animatedGIF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45689821E1CB8C70017EDE5 /* giftoMP4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45689B01E1CB8C70017EDE5 /* Build configuration list for PBXNativeTarget "giftoMP4" */;
+			buildPhases = (
+				F456897F1E1CB8C70017EDE5 /* Sources */,
+				F45689801E1CB8C70017EDE5 /* Frameworks */,
+				F45689811E1CB8C70017EDE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = giftoMP4;
+			productName = giftoMP4;
+			productReference = F45689831E1CB8C70017EDE5 /* giftoMP4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F456899B1E1CB8C70017EDE5 /* giftoMP4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45689B31E1CB8C70017EDE5 /* Build configuration list for PBXNativeTarget "giftoMP4Tests" */;
+			buildPhases = (
+				F45689981E1CB8C70017EDE5 /* Sources */,
+				F45689991E1CB8C70017EDE5 /* Frameworks */,
+				F456899A1E1CB8C70017EDE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F456899E1E1CB8C70017EDE5 /* PBXTargetDependency */,
+			);
+			name = giftoMP4Tests;
+			productName = giftoMP4Tests;
+			productReference = F456899C1E1CB8C70017EDE5 /* giftoMP4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F45689A61E1CB8C70017EDE5 /* giftoMP4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45689B61E1CB8C70017EDE5 /* Build configuration list for PBXNativeTarget "giftoMP4UITests" */;
+			buildPhases = (
+				F45689A31E1CB8C70017EDE5 /* Sources */,
+				F45689A41E1CB8C70017EDE5 /* Frameworks */,
+				F45689A51E1CB8C70017EDE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45689A91E1CB8C70017EDE5 /* PBXTargetDependency */,
+			);
+			name = giftoMP4UITests;
+			productName = giftoMP4UITests;
+			productReference = F45689A71E1CB8C70017EDE5 /* giftoMP4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F456897B1E1CB8C70017EDE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = denny;
+				TargetAttributes = {
+					F45689821E1CB8C70017EDE5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F456899B1E1CB8C70017EDE5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F45689821E1CB8C70017EDE5;
+					};
+					F45689A61E1CB8C70017EDE5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F45689821E1CB8C70017EDE5;
+					};
+				};
+			};
+			buildConfigurationList = F456897E1E1CB8C70017EDE5 /* Build configuration list for PBXProject "giftoMP4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F456897A1E1CB8C70017EDE5;
+			productRefGroup = F45689841E1CB8C70017EDE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45689821E1CB8C70017EDE5 /* giftoMP4 */,
+				F456899B1E1CB8C70017EDE5 /* giftoMP4Tests */,
+				F45689A61E1CB8C70017EDE5 /* giftoMP4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45689811E1CB8C70017EDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45689961E1CB8C70017EDE5 /* LaunchScreen.storyboard in Resources */,
+				F45689931E1CB8C70017EDE5 /* Assets.xcassets in Resources */,
+				F4568A171E1CB9970017EDE5 /* my.gif in Resources */,
+				F4568A2D1E1CD3570017EDE5 /* your.gif in Resources */,
+				F45689911E1CB8C70017EDE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F456899A1E1CB8C70017EDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45689A51E1CB8C70017EDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F456897F1E1CB8C70017EDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F456898E1E1CB8C70017EDE5 /* ViewController.m in Sources */,
+				F456898B1E1CB8C70017EDE5 /* AppDelegate.m in Sources */,
+				F45689881E1CB8C70017EDE5 /* main.m in Sources */,
+				F4568A1A1E1CC46A0017EDE5 /* UIImage+animatedGIF.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45689981E1CB8C70017EDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45689A11E1CB8C70017EDE5 /* giftoMP4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45689A31E1CB8C70017EDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45689AC1E1CB8C70017EDE5 /* giftoMP4UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F456899E1E1CB8C70017EDE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45689821E1CB8C70017EDE5 /* giftoMP4 */;
+			targetProxy = F456899D1E1CB8C70017EDE5 /* PBXContainerItemProxy */;
+		};
+		F45689A91E1CB8C70017EDE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45689821E1CB8C70017EDE5 /* giftoMP4 */;
+			targetProxy = F45689A81E1CB8C70017EDE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F456898F1E1CB8C70017EDE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45689901E1CB8C70017EDE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F45689941E1CB8C70017EDE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45689951E1CB8C70017EDE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F45689AE1E1CB8C70017EDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F45689AF1E1CB8C70017EDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45689B11E1CB8C70017EDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = giftoMP4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gajera.giftoMP4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F45689B21E1CB8C70017EDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = giftoMP4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gajera.giftoMP4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F45689B41E1CB8C70017EDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = giftoMP4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gajera.giftoMP4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giftoMP4.app/giftoMP4";
+			};
+			name = Debug;
+		};
+		F45689B51E1CB8C70017EDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = giftoMP4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gajera.giftoMP4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giftoMP4.app/giftoMP4";
+			};
+			name = Release;
+		};
+		F45689B71E1CB8C70017EDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = giftoMP4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gajera.giftoMP4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = giftoMP4;
+			};
+			name = Debug;
+		};
+		F45689B81E1CB8C70017EDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = giftoMP4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gajera.giftoMP4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = giftoMP4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F456897E1E1CB8C70017EDE5 /* Build configuration list for PBXProject "giftoMP4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45689AE1E1CB8C70017EDE5 /* Debug */,
+				F45689AF1E1CB8C70017EDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45689B01E1CB8C70017EDE5 /* Build configuration list for PBXNativeTarget "giftoMP4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45689B11E1CB8C70017EDE5 /* Debug */,
+				F45689B21E1CB8C70017EDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45689B31E1CB8C70017EDE5 /* Build configuration list for PBXNativeTarget "giftoMP4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45689B41E1CB8C70017EDE5 /* Debug */,
+				F45689B51E1CB8C70017EDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45689B61E1CB8C70017EDE5 /* Build configuration list for PBXNativeTarget "giftoMP4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45689B71E1CB8C70017EDE5 /* Debug */,
+				F45689B81E1CB8C70017EDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F456897B1E1CB8C70017EDE5 /* Project object */;
+}
